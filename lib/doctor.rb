@@ -1,6 +1,6 @@
 require 'pry'
 class Doctor 
-  attr_accessor :name, :add_appointment 
+  attr_accessor :name, :appointments 
   
   def initialize(name)
     @name = name
