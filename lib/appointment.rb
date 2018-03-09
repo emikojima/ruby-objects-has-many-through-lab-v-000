@@ -7,11 +7,4 @@ class Appointment
     doctor.add_appointment(self)
   end
   
-  def patient
-  
-  end 
-  
-  def doctor
-    @doctor 
-  end 
 end 
