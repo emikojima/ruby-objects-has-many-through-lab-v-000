@@ -7,9 +7,9 @@ class Doctor
     @appointments = []
   end 
   
-  def add_appointment(apt)
-    @appointments << apt
-    apt.doctor = self 
+  def add_appointment(appointment)
+    @appointments << appointment
+    appointment.doctor = self 
     #binding.pry 
   end
   
