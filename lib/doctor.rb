@@ -9,6 +9,7 @@ class Doctor
   
   def add_appointment(apt)
     @appointments << apt
+    appointment.doctor = self 
     #binding.pry 
   end
   
